@@ -3,7 +3,7 @@ name: Terraform Helm AKS Deployment
 on:
   push:
     branches:
-      - main # You can change this to the branch you want to trigger the workflow on
+      - master # You can change this to the branch you want to trigger the workflow on
 
 jobs:
   terraform-helm-aks:
